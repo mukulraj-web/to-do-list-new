@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #00FF9C, #77CDFF);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    width: 100%;
+    max-width: 540px;
+    height: 70vh;
+    padding: 20px;
+    background-color: #B6FFA1;
+    border-radius: 20px;
+}
+
+h2 {
+    padding-bottom: 10px;
+}
+
+.search {
+    margin: 10px;
+    width: 80%;
+    background-color: #FEFFA7;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search input {
+    height: 40px;
+    flex: 1; 
+    border: none;
+    background: transparent;
+    border-radius: 30px;
+    text-align: center;
+    outline: none;
+    box-shadow: none;
+}
+
+.search button {
+    width: 20%;
+    border-radius: 20px;
+    background-color: #FFE700;
+    border: none;
+}
+
+.taskList {
+    margin-top: 20px;
+}
+
+.taskItem { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+}
+.checked {
+    text-decoration: line-through;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: grey;
+}
+.delete {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: none;
+    background-image: url(delete.png);
+    background-size: contain;
+
+}
